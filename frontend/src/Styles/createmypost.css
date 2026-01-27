@@ -1,0 +1,39 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.col {
+    flex: 1;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.col:last-child {
+    margin-right: 0;
+}
+
+.col h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+.col p {
+    font-size: 18px;
+    margin-bottom: 0;
+    color: #4F1C70;
+    
+}

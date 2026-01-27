@@ -1,0 +1,41 @@
+.view-workout-content{
+    width: 100%;
+}
+.workout-plan-content-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.workout-header-title{
+    color: #000;
+    font-family: "Roboto Slab", serif;
+}
+.header-activity{
+    display: flex;
+    align-items: center;
+    margin-left: 1100px;    
+}
+.workout-search-box{
+    background: #fff;
+    padding: 8px 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.workout-search-box input{
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 5px;
+    outline: none;
+}
+.workout-search-icon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.5s ease-out;
+}
+.workout-search-icon:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}

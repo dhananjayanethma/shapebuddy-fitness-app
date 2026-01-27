@@ -1,0 +1,45 @@
+.workoutsidemenu{
+    display: flex;
+    flex-direction: column;
+    gap: 2.3rem;
+    height: 94vh;
+}
+.workout_logo{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 20px;
+    color: #2F1143;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+}
+.workoutLogoImg .workout_img{
+    font-size: 14rem;
+}
+.workoutmenu-list{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.workoutmenu-list .workoutmenuitem {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    color: #2F1143;
+}
+.workout_img{
+    width: 30px;
+    height: 30px;
+}
+.workoutmenu-list .workoutmenuitem:hover{
+    background: #B387BC;
+    color: #fff;
+}

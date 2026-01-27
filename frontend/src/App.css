@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+:root {
+  --primary-color: #8D4B9B;
+  --heading-color: #fff;
+  --bg-gradient: linear-gradient(90deg, #8D4B9B 27%, #A673B1 85%);
+  --font-name: "Questrial", sans-serif;
+}
+*{
+  margin: 0;
+}
+
+ .container{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-name);
+}
+
+section {
+  padding: 50px 0px;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: unset;
+}
+
+ul {
+  list-style: none;
+}
+
+.containerApp {
+  width: 100%;
+  padding: 0px 15px;
+  margin: auto;
+}
+
+.section_title {
+  color: var(--heading-color);
+  font-weight: 700;
+} 
+
+/*
+colors
+  #B387BC         
+  A673B1
+  995FA6
+  8D4B9B
+  803790
+  662C73
+  5A2765
+  4F1C70
+  3F165A
+  2F1143
+
+  #EFEAF2
+  E6D7E9
+  D9C3DE
+  #CCAFD3
+  C09BC8
+
+  1A1A1A
+  333333
+  4D4D4D
+  666666
+  808080
+
+  #6D2480 - Success
+  #FFD83A - Warning
+  #FF0000 - Error / Fail / Cancel
+
+  #CCAFD3
+  #4F1C70
+  #8D4B9B
+  #A673B1
+*/
